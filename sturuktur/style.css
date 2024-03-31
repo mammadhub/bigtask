@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+nav > div,ul{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 20px;
+}
+a{
+    text-decoration-line: none;color: black;
+}
+.yappoz{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    background-color: brown;
+}
+.yappoz > div {
+    background-color: yellow;
+    width: 400px;height: 400px;
+}
+.width{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blue;
+    padding: 50px;
+}
+.trio{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: blue;
+    margin-top: 20px;
+}
+.trio > div{
+    width: 300px;height: 300px;
+    background-color: darkgreen;
+}
+.why {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: cyan;
+    padding: 30px;
+}
+.why > div {
+    width: 400px;height: 300px;
+    background-color: darkslategrey;
+}
+.services {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:cadetblue;
+    padding: 50px;
+}
+.div{
+    width: 400px;
+    height: 200px;
+    background-color: chocolate;
+}
+.grid {
+    margin-top: 10px;
+    display: grid;
+    gap: 20px;
+    background-color: chocolate;
+    grid-template-columns: auto auto;
+}
+.grid > div {
+    width: 400px;height: 200px;
+    background-color: cyan;
+} 
+.new {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:blueviolet;
+    padding: 50px;  
+}
+.test{
+    width: 60%;
+    height: 200px;
+    background-color: aqua;
+}
+.scroll{
+    width: 900px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    background-color: aqua;
+    padding: 10px;
+    gap: 10px;
+}
+.scroll > div {
+    min-width: 280px;
+    height: 180px;
+    background-color:red;
+}
+.contact{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+.contact > div {
+    width: 300px;
+    height: 200px;
+    background-color: brown;
+}
+.son{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+}
